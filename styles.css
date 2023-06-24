@@ -1,14 +1,17 @@
 /*  your css code here. If applicable */
-.content{
-	display:flex;
+*{
+	background:white;
 }
 p:first-child{
 	color:rgb(255, 0, 0);
 }
-p:nth-child(2n){
-	color:black;
-	margin-inline:2px;
+.content{
+	display:flex;
 }
 p:last-child{
 	color:rgb(255, 0, 0);
+}
+p:nth-child(2n){
+	color:rgb(0,0,0);
+	margin-inline:2px;
 }
