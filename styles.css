@@ -1,8 +1,14 @@
 /*  your css code here. If applicable */
-.content1{
-	font-size:18px;
-	color:rgb(255, 0, 0);
-}
 .content{
 	display:flex;
+}
+p:first-child{
+	color:rgb(255, 0, 0);
+}
+p:nth-child(2n){
+	color:black;
+	margin-inline:2px;
+}
+p:last-child{
+	color:rgb(255, 0, 0);
 }
